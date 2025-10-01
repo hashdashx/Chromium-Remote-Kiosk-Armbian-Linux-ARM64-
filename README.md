@@ -129,7 +129,7 @@ This project demonstrates how to run **Chromium in kiosk mode** on **Armbian hea
 ### 1. Install dependencies
 ```bash
 sudo apt update
-sudo apt install -y chromium xvfb x11vnc novnc websockify
+sudo apt install -y chromium xvfb x11vnc novnc websockify x11-xserver-utils openbox alsa-utils
 ```
 
 ### 2. Save scripts
