@@ -27,7 +27,8 @@ Proyek ini menunjukkan cara menjalankan **Chromium dalam mode kiosk** pada **Arm
 ### 1. Install dependency
 ```bash
 sudo apt update
-sudo apt install -y chromium xvfb x11vnc novnc websockify
+sudo apt install -y chromium xvfb x11vnc novnc websockify x11-xserver-utils openbox alsa-utils
+
 ```
 
 ### 2. Simpan skrip
